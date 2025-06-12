@@ -1,0 +1,40 @@
+<!-- File: dashboard/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - ChatGPT India</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <header>
+    <h1>👨‍💼 Admin Dashboard</h1>
+    <p>Monitor and manage your ChatGPT instance</p>
+  </header>
+
+  <main>
+    <section id="stats">
+      <h2>📊 Stats</h2>
+      <ul>
+        <li>Total Queries: <span id="total-queries">0</span></li>
+        <li>Last Query: <span id="last-query">None</span></li>
+        <li>Server Status: <span id="server-status">🟢 Online</span></li>
+      </ul>
+    </section>
+
+    <section id="logs">
+      <h2>📜 Logs</h2>
+      <div id="log-container">
+        <p>No logs yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ChatGPT India | Admin Panel</p>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
